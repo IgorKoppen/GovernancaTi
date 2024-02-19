@@ -1,0 +1,14 @@
+package fiap.com.br.calculador.teste;
+
+import static org.junit.jupiter.api.Assertions.*;
+
+import org.junit.jupiter.api.Test;
+
+class testCalculadora {
+
+	@Test
+	void test() {
+		fail("Not yet implemented");
+	}
+
+}

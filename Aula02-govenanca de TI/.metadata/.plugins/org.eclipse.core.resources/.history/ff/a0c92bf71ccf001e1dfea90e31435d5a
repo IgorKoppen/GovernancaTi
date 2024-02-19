@@ -1,0 +1,16 @@
+package fiap.com.br.calculadora;
+
+import fiap.com.br.calculadora.obj.Calculadora;
+
+public class Main {
+
+	public static void main(String[] args) {
+		Calculadora calculadora = new Calculadora();
+		
+		calculadora.soma(-10, 20);
+		System.out.println("Soma de resultados inteiros: " + calculadora.getResultado());
+		
+		calculadora.subtracao(0, 0);
+	}
+
+}
